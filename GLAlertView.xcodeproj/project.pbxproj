@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5CEE191DBC59B0007C1443 /* GLEasyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE181DBC59B0007C1443 /* GLEasyAlertView.m */; };
+		7E5CEE8B1DBC6B68007C1443 /* LewPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE6D1DBC6B68007C1443 /* LewPopupBackgroundView.m */; };
+		7E5CEE8C1DBC6B68007C1443 /* LewPopupViewAnimationDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE6F1DBC6B68007C1443 /* LewPopupViewAnimationDrop.m */; };
+		7E5CEE8D1DBC6B68007C1443 /* LewPopupViewAnimationFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE711DBC6B68007C1443 /* LewPopupViewAnimationFade.m */; };
+		7E5CEE8E1DBC6B68007C1443 /* LewPopupViewAnimationSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE731DBC6B68007C1443 /* LewPopupViewAnimationSlide.m */; };
+		7E5CEE8F1DBC6B68007C1443 /* LewPopupViewAnimationSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE751DBC6B68007C1443 /* LewPopupViewAnimationSpring.m */; };
+		7E5CEE901DBC6B68007C1443 /* UIViewController+LewPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE781DBC6B68007C1443 /* UIViewController+LewPopupViewController.m */; };
+		7E5CEE911DBC6B68007C1443 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE7B1DBC6B68007C1443 /* SCLAlertView.m */; };
+		7E5CEE921DBC6B68007C1443 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE7D1DBC6B68007C1443 /* SCLAlertViewResponder.m */; };
+		7E5CEE931DBC6B68007C1443 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE7F1DBC6B68007C1443 /* SCLAlertViewStyleKit.m */; };
+		7E5CEE941DBC6B68007C1443 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE811DBC6B68007C1443 /* SCLButton.m */; };
+		7E5CEE951DBC6B68007C1443 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE841DBC6B68007C1443 /* SCLSwitchView.m */; };
+		7E5CEE961DBC6B68007C1443 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE861DBC6B68007C1443 /* SCLTextView.m */; };
+		7E5CEE971DBC6B68007C1443 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE881DBC6B68007C1443 /* SCLTimerDisplay.m */; };
+		7E5CEE981DBC6B68007C1443 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CEE8A1DBC6B68007C1443 /* UIImage+ImageEffects.m */; };
 		7EB21A3A1DBBB17400F37DD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A391DBBB17400F37DD4 /* main.m */; };
-		7EB21A3D1DBBB17400F37DD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A3C1DBBB17400F37DD4 /* AppDelegate.m */; };
-		7EB21A401DBBB17400F37DD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A3F1DBBB17400F37DD4 /* ViewController.m */; };
-		7EB21A431DBBB17400F37DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB21A411DBBB17400F37DD4 /* Main.storyboard */; };
 		7EB21A451DBBB17400F37DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB21A441DBBB17400F37DD4 /* Assets.xcassets */; };
-		7EB21A481DBBB17400F37DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB21A461DBBB17400F37DD4 /* LaunchScreen.storyboard */; };
 		7EB21A531DBBB17400F37DD4 /* GLAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A521DBBB17400F37DD4 /* GLAlertViewTests.m */; };
 		7EB21A5E1DBBB17400F37DD4 /* GLAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A5D1DBBB17400F37DD4 /* GLAlertViewUITests.m */; };
+		7EB21A701DBBB53400F37DD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A6F1DBBB53400F37DD4 /* AppDelegate.m */; };
+		7EB21A731DBBB55000F37DD4 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A721DBBB55000F37DD4 /* DemoViewController.m */; };
+		7EB21A761DBBB97100F37DD4 /* GLCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB21A751DBBB97100F37DD4 /* GLCustomAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +49,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E5CEE171DBC59B0007C1443 /* GLEasyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLEasyAlertView.h; sourceTree = "<group>"; };
+		7E5CEE181DBC59B0007C1443 /* GLEasyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLEasyAlertView.m; sourceTree = "<group>"; };
+		7E5CEE6C1DBC6B68007C1443 /* LewPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupBackgroundView.h; sourceTree = "<group>"; };
+		7E5CEE6D1DBC6B68007C1443 /* LewPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewPopupBackgroundView.m; sourceTree = "<group>"; };
+		7E5CEE6E1DBC6B68007C1443 /* LewPopupViewAnimationDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupViewAnimationDrop.h; sourceTree = "<group>"; };
+		7E5CEE6F1DBC6B68007C1443 /* LewPopupViewAnimationDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewPopupViewAnimationDrop.m; sourceTree = "<group>"; };
+		7E5CEE701DBC6B68007C1443 /* LewPopupViewAnimationFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupViewAnimationFade.h; sourceTree = "<group>"; };
+		7E5CEE711DBC6B68007C1443 /* LewPopupViewAnimationFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewPopupViewAnimationFade.m; sourceTree = "<group>"; };
+		7E5CEE721DBC6B68007C1443 /* LewPopupViewAnimationSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupViewAnimationSlide.h; sourceTree = "<group>"; };
+		7E5CEE731DBC6B68007C1443 /* LewPopupViewAnimationSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewPopupViewAnimationSlide.m; sourceTree = "<group>"; };
+		7E5CEE741DBC6B68007C1443 /* LewPopupViewAnimationSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupViewAnimationSpring.h; sourceTree = "<group>"; };
+		7E5CEE751DBC6B68007C1443 /* LewPopupViewAnimationSpring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewPopupViewAnimationSpring.m; sourceTree = "<group>"; };
+		7E5CEE761DBC6B68007C1443 /* LewPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupViewController.h; sourceTree = "<group>"; };
+		7E5CEE771DBC6B68007C1443 /* UIViewController+LewPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LewPopupViewController.h"; sourceTree = "<group>"; };
+		7E5CEE781DBC6B68007C1443 /* UIViewController+LewPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LewPopupViewController.m"; sourceTree = "<group>"; };
+		7E5CEE7A1DBC6B68007C1443 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		7E5CEE7B1DBC6B68007C1443 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		7E5CEE7C1DBC6B68007C1443 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		7E5CEE7D1DBC6B68007C1443 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		7E5CEE7E1DBC6B68007C1443 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		7E5CEE7F1DBC6B68007C1443 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		7E5CEE801DBC6B68007C1443 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		7E5CEE811DBC6B68007C1443 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		7E5CEE821DBC6B68007C1443 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		7E5CEE831DBC6B68007C1443 /* SCLSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLSwitchView.h; sourceTree = "<group>"; };
+		7E5CEE841DBC6B68007C1443 /* SCLSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLSwitchView.m; sourceTree = "<group>"; };
+		7E5CEE851DBC6B68007C1443 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTextView.h; sourceTree = "<group>"; };
+		7E5CEE861DBC6B68007C1443 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTextView.m; sourceTree = "<group>"; };
+		7E5CEE871DBC6B68007C1443 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTimerDisplay.h; sourceTree = "<group>"; };
+		7E5CEE881DBC6B68007C1443 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
+		7E5CEE891DBC6B68007C1443 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		7E5CEE8A1DBC6B68007C1443 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		7EB21A351DBBB17400F37DD4 /* GLAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB21A391DBBB17400F37DD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7EB21A3B1DBBB17400F37DD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7EB21A3C1DBBB17400F37DD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7EB21A3E1DBBB17400F37DD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7EB21A3F1DBBB17400F37DD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7EB21A421DBBB17400F37DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EB21A441DBBB17400F37DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7EB21A471DBBB17400F37DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EB21A491DBBB17400F37DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB21A4E1DBBB17400F37DD4 /* GLAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB21A521DBBB17400F37DD4 /* GLAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAlertViewTests.m; sourceTree = "<group>"; };
@@ -51,6 +91,12 @@
 		7EB21A591DBBB17400F37DD4 /* GLAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB21A5D1DBBB17400F37DD4 /* GLAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAlertViewUITests.m; sourceTree = "<group>"; };
 		7EB21A5F1DBBB17400F37DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB21A6E1DBBB53400F37DD4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EB21A6F1DBBB53400F37DD4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EB21A711DBBB55000F37DD4 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		7EB21A721DBBB55000F37DD4 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		7EB21A741DBBB97100F37DD4 /* GLCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCustomAlertView.h; sourceTree = "<group>"; };
+		7EB21A751DBBB97100F37DD4 /* GLCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCustomAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +124,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E5CEE1A1DBC5FD1007C1443 /* GLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GLAlertView;
+			sourceTree = "<group>";
+		};
+		7E5CEE6A1DBC6B68007C1443 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CEE6B1DBC6B68007C1443 /* popupViewController */,
+				7E5CEE791DBC6B68007C1443 /* SCLAlertView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7E5CEE6B1DBC6B68007C1443 /* popupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CEE6C1DBC6B68007C1443 /* LewPopupBackgroundView.h */,
+				7E5CEE6D1DBC6B68007C1443 /* LewPopupBackgroundView.m */,
+				7E5CEE6E1DBC6B68007C1443 /* LewPopupViewAnimationDrop.h */,
+				7E5CEE6F1DBC6B68007C1443 /* LewPopupViewAnimationDrop.m */,
+				7E5CEE701DBC6B68007C1443 /* LewPopupViewAnimationFade.h */,
+				7E5CEE711DBC6B68007C1443 /* LewPopupViewAnimationFade.m */,
+				7E5CEE721DBC6B68007C1443 /* LewPopupViewAnimationSlide.h */,
+				7E5CEE731DBC6B68007C1443 /* LewPopupViewAnimationSlide.m */,
+				7E5CEE741DBC6B68007C1443 /* LewPopupViewAnimationSpring.h */,
+				7E5CEE751DBC6B68007C1443 /* LewPopupViewAnimationSpring.m */,
+				7E5CEE761DBC6B68007C1443 /* LewPopupViewController.h */,
+				7E5CEE771DBC6B68007C1443 /* UIViewController+LewPopupViewController.h */,
+				7E5CEE781DBC6B68007C1443 /* UIViewController+LewPopupViewController.m */,
+			);
+			path = popupViewController;
+			sourceTree = "<group>";
+		};
+		7E5CEE791DBC6B68007C1443 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CEE7A1DBC6B68007C1443 /* SCLAlertView.h */,
+				7E5CEE7B1DBC6B68007C1443 /* SCLAlertView.m */,
+				7E5CEE7C1DBC6B68007C1443 /* SCLAlertViewResponder.h */,
+				7E5CEE7D1DBC6B68007C1443 /* SCLAlertViewResponder.m */,
+				7E5CEE7E1DBC6B68007C1443 /* SCLAlertViewStyleKit.h */,
+				7E5CEE7F1DBC6B68007C1443 /* SCLAlertViewStyleKit.m */,
+				7E5CEE801DBC6B68007C1443 /* SCLButton.h */,
+				7E5CEE811DBC6B68007C1443 /* SCLButton.m */,
+				7E5CEE821DBC6B68007C1443 /* SCLMacros.h */,
+				7E5CEE831DBC6B68007C1443 /* SCLSwitchView.h */,
+				7E5CEE841DBC6B68007C1443 /* SCLSwitchView.m */,
+				7E5CEE851DBC6B68007C1443 /* SCLTextView.h */,
+				7E5CEE861DBC6B68007C1443 /* SCLTextView.m */,
+				7E5CEE871DBC6B68007C1443 /* SCLTimerDisplay.h */,
+				7E5CEE881DBC6B68007C1443 /* SCLTimerDisplay.m */,
+				7E5CEE891DBC6B68007C1443 /* UIImage+ImageEffects.h */,
+				7E5CEE8A1DBC6B68007C1443 /* UIImage+ImageEffects.m */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
 		7EB21A2C1DBBB17400F37DD4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +207,10 @@
 		7EB21A371DBBB17400F37DD4 /* GLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				7EB21A3B1DBBB17400F37DD4 /* AppDelegate.h */,
-				7EB21A3C1DBBB17400F37DD4 /* AppDelegate.m */,
-				7EB21A3E1DBBB17400F37DD4 /* ViewController.h */,
-				7EB21A3F1DBBB17400F37DD4 /* ViewController.m */,
-				7EB21A411DBBB17400F37DD4 /* Main.storyboard */,
+				7E5CEE6A1DBC6B68007C1443 /* Lib */,
+				7EB21A6B1DBBB46500F37DD4 /* GLAlertView */,
+				7EB21A6D1DBBB53400F37DD4 /* demo */,
 				7EB21A441DBBB17400F37DD4 /* Assets.xcassets */,
-				7EB21A461DBBB17400F37DD4 /* LaunchScreen.storyboard */,
 				7EB21A491DBBB17400F37DD4 /* Info.plist */,
 				7EB21A381DBBB17400F37DD4 /* Supporting Files */,
 			);
@@ -138,6 +241,37 @@
 				7EB21A5F1DBBB17400F37DD4 /* Info.plist */,
 			);
 			path = GLAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		7EB21A6B1DBBB46500F37DD4 /* GLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CEE1A1DBC5FD1007C1443 /* GLAlertView */,
+				7EB21A6C1DBBB46500F37DD4 /* CustomAlertView */,
+			);
+			path = GLAlertView;
+			sourceTree = "<group>";
+		};
+		7EB21A6C1DBBB46500F37DD4 /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7EB21A741DBBB97100F37DD4 /* GLCustomAlertView.h */,
+				7EB21A751DBBB97100F37DD4 /* GLCustomAlertView.m */,
+				7E5CEE171DBC59B0007C1443 /* GLEasyAlertView.h */,
+				7E5CEE181DBC59B0007C1443 /* GLEasyAlertView.m */,
+			);
+			path = CustomAlertView;
+			sourceTree = "<group>";
+		};
+		7EB21A6D1DBBB53400F37DD4 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				7EB21A711DBBB55000F37DD4 /* DemoViewController.h */,
+				7EB21A721DBBB55000F37DD4 /* DemoViewController.m */,
+				7EB21A6E1DBBB53400F37DD4 /* AppDelegate.h */,
+				7EB21A6F1DBBB53400F37DD4 /* AppDelegate.m */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EB21A481DBBB17400F37DD4 /* LaunchScreen.storyboard in Resources */,
 				7EB21A451DBBB17400F37DD4 /* Assets.xcassets in Resources */,
-				7EB21A431DBBB17400F37DD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +408,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EB21A401DBBB17400F37DD4 /* ViewController.m in Sources */,
-				7EB21A3D1DBBB17400F37DD4 /* AppDelegate.m in Sources */,
+				7E5CEE8D1DBC6B68007C1443 /* LewPopupViewAnimationFade.m in Sources */,
+				7EB21A731DBBB55000F37DD4 /* DemoViewController.m in Sources */,
+				7E5CEE971DBC6B68007C1443 /* SCLTimerDisplay.m in Sources */,
+				7E5CEE8E1DBC6B68007C1443 /* LewPopupViewAnimationSlide.m in Sources */,
+				7E5CEE911DBC6B68007C1443 /* SCLAlertView.m in Sources */,
 				7EB21A3A1DBBB17400F37DD4 /* main.m in Sources */,
+				7E5CEE8B1DBC6B68007C1443 /* LewPopupBackgroundView.m in Sources */,
+				7E5CEE8F1DBC6B68007C1443 /* LewPopupViewAnimationSpring.m in Sources */,
+				7E5CEE941DBC6B68007C1443 /* SCLButton.m in Sources */,
+				7EB21A701DBBB53400F37DD4 /* AppDelegate.m in Sources */,
+				7E5CEE8C1DBC6B68007C1443 /* LewPopupViewAnimationDrop.m in Sources */,
+				7E5CEE961DBC6B68007C1443 /* SCLTextView.m in Sources */,
+				7E5CEE951DBC6B68007C1443 /* SCLSwitchView.m in Sources */,
+				7E5CEE981DBC6B68007C1443 /* UIImage+ImageEffects.m in Sources */,
+				7E5CEE901DBC6B68007C1443 /* UIViewController+LewPopupViewController.m in Sources */,
+				7E5CEE931DBC6B68007C1443 /* SCLAlertViewStyleKit.m in Sources */,
+				7E5CEE921DBC6B68007C1443 /* SCLAlertViewResponder.m in Sources */,
+				7E5CEE191DBC59B0007C1443 /* GLEasyAlertView.m in Sources */,
+				7EB21A761DBBB97100F37DD4 /* GLCustomAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +460,6 @@
 			targetProxy = 7EB21A5A1DBBB17400F37DD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7EB21A411DBBB17400F37DD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EB21A421DBBB17400F37DD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7EB21A461DBBB17400F37DD4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EB21A471DBBB17400F37DD4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7EB21A601DBBB17400F37DD4 /* Debug */ = {
@@ -425,8 +554,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KFA3QPDKRY;
 				INFOPLIST_FILE = GLAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.396735426.GLAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,8 +568,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KFA3QPDKRY;
 				INFOPLIST_FILE = GLAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.396735426.GLAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +647,7 @@
 				7EB21A641DBBB17400F37DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EB21A651DBBB17400F37DD4 /* Build configuration list for PBXNativeTarget "GLAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +656,7 @@
 				7EB21A671DBBB17400F37DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EB21A681DBBB17400F37DD4 /* Build configuration list for PBXNativeTarget "GLAlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +665,7 @@
 				7EB21A6A1DBBB17400F37DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
